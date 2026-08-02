@@ -27,19 +27,18 @@ int main()
 {
     float radius_sphere, radius_cylinder, height_cylinder;
     
-    // Get user input for the sphere
+    
     cout << "Enter radius for sphere: ";
     cin >> radius_sphere;
     
-    // Get user input for the cylinder
+    
     cout << "Enter radius and height for cylinder simultaneously: ";
     cin >> radius_cylinder >> height_cylinder;
     
-    // Create objects to trigger the calculations
+    
     VOLUME sphere(radius_sphere);
     VOLUME cylinder(radius_cylinder, height_cylinder);
     
-    // Print the results
     cout << "\nVolume of Sphere: ";
     sphere.display();
     
