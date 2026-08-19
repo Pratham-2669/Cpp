@@ -32,6 +32,7 @@ class SELECT
             int temp = a[i];
             a[i]=a[low];
             a[low]=temp;
+            //a[i] will be replaced with the new lowest found in j loop
         }
     }
     void show()
