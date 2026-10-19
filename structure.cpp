@@ -16,7 +16,7 @@ public:
         int choice;
         do
     {   cout<<"1-->Create";
-        cout<<endl<<"2-->Displa7";
+        cout<<endl<<"2-->Display";
         cout<<endl<<"3-->Insert";
         cout<<endl<<"4-->Exit";
         cin>>choice;
